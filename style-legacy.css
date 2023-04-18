@@ -43,18 +43,18 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 11.72vh;
+	height: 240px;
 }
 
 .title h1 {
-	font-size: 4.69vh;
+	font-size: 1in;
 }
 
 .linklist {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 88.28vh;
+	height: 1808px;
 }
 
 .linklist ul {
@@ -63,52 +63,52 @@
 
 .linklist li {
 	margin: 1em 0;
-	font-size: 3.75vh;
+	font-size: .8in;
 	text-align: center;
 }
 
 .linklist a {
-	width: 58.57vw;
+	width: 1600px;
 	padding: .5em 0;
 	text-decoration: none;
 	color: white;
 	background-color: cornflowerblue;
 	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.4));
-	border: .78vh solid white;
-	border-radius: 2.34vh;
+	border: 12pt solid white;
+	border-radius: 36pt;
 	display: inline-block;
 }
 
 #about p {
-	font-size: 4.69vh;
+	font-size: 1in;
 	margin: 0 2em;
 }
 
 .leftarrow {
-	height: 15.63vh;
+	height: 320px;
 	position: fixed;
-	bottom: 1.17vh;
-	left: .88vw;
+	bottom: .25in;
+	left: .25in;
 }
 
 .rightarrow {
-	height: 15.63vh;
+	height: 320px;
 	position: fixed;
-	bottom: 1.17vh;
-	right: .88vw;
+	bottom: .25in;
+	right: .25in;
 }
 
 .rightimg {
-	height: 39.06vh;
+	height: 800px;
 	position: fixed;
-	bottom: 24.41vh;
+	bottom: 500px;
 	right: 0px;
 }
 
 .leftimg {
-	height: 39.06vh;
+	height: 800px;
 	position: fixed;
-	bottom: 24.41vh;
+	bottom: 500px;
 	left: 0px;
 }
 
@@ -116,21 +116,21 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 46.85vw;
-	height: 39.06vh;
+	width: 1280px;
+	height: 800px;
 	background: #fff;
 	position: fixed;
-	left: 26.57vw;
-	top: 5.86vh;
-	-moz-border-radius: 3.13vh; 
-	-webkit-border-radius: 3.13vh; 
-	border-radius: 3.13vh;
+	left: 726px;
+	top: 1.25in;
+	-moz-border-radius: 64px; 
+	-webkit-border-radius: 64px; 
+	border-radius: 64px;
 }
 
 .speech-bubble p {
 	padding: 1em;
-	line-height: 3.91vh;
-	font-size: 2.54vh;
+	line-height: 80px;
+	font-size: 52px;
 	font-weight: 700;
 }
 
@@ -139,11 +139,11 @@
 	position: absolute;
 	width: 0;
 	height: 0;
-	top: 34.96vh;
-	right: 45.83vw;
-	border-top: 4.49vh solid transparent;
-	border-right: 4.69vw solid #fff;
-	margin: -1.22vh 0 0 0;
+	top: 716px;
+	right: 1252px;
+	border-top: 92px solid transparent;
+	border-right: 128px solid #fff;
+	margin: -25px 0 0 0;
  }
 
 #sb-right:before {
@@ -151,25 +151,25 @@
 	position: absolute;
 	width: 0;
 	height: 0;
-	top: 34.96vh;
-	left: 45.83vw;
-	border-top: 4.49vh solid transparent;
-	border-left: 4.69vw solid #fff;
-	margin: -1.22vh 0 0 0;
+	top: 716px;
+	left: 1252px;
+	border-top: 92px solid transparent;
+	border-left: 128px solid #fff;
+	margin: -25px 0 0 0;
  }
 
  @keyframes fade-in {
-	from {opacity: 0; bottom: 17.09vh;}
-	to {opacity: 1; bottom: 21.97vh;}
+	from {opacity: 0; bottom: 350px;}
+	to {opacity: 1; bottom: 449px;}
 }
 
 .component-intro {
 	position: fixed;
 	/*background-color: white;*/
-	height: 24.41vh;
-	width: 24.41vh;
-	left: 40.85vw;
-	bottom: 21.97vh;
+	width: 500px;
+	height: 500px;
+	left: 1116px;
+	bottom: 450px;
 	animation-name: fade-in;
 	animation-duration: 1s;
 }
@@ -177,10 +177,10 @@
 .component-static {
 	position: fixed;
 	/*background-color: white;*/
-	height: 24.41vh;
-	width: 24.41vh;
-	left: 40.85vw;
-	bottom: 21.97vh;
+	width: 500px;
+	height: 500px;
+	left: 1116px;
+	bottom: 450px;
 }
 
  .bulletbar {
@@ -188,20 +188,20 @@
 	position: fixed;
 	justify-content: center;
 	align-items: center;
-	width: 29.87vw;
-	height: 3.13vh;
-	bottom: 7.81vh;
-	left: 35.07vw;
+	width: 816px;
+	height: 64px;
+	bottom: 160px;
+	left: 958px;
  }
 
  .bullet {
-	margin: 0 .59vw;
-	width: 1.76vw;
-	height: 1.76vw;
-	outline: .39vh solid white;
-	-webkit-border-radius: .88vw;
-	-moz-border-radius: .88vw;
-	border-radius: .88vw;
+	margin: 0 16px;
+	width: 48px;
+	height: 48px;
+	outline: 8px solid white;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
 	background-color: lightgrey;
 	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2));
  }
