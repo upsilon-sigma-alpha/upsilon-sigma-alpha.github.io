@@ -199,8 +199,8 @@
 	width: 1.76vw;
 	height: 1.76vw;
 	outline: .39vh solid white;
-	-webkit-border-radius: .88vw;
-	-moz-border-radius: .88vw;
+	/*-webkit-border-radius: .88vw;
+	-moz-border-radius: .88vw;*/
 	border-radius: .88vw;
 	background-color: lightgrey;
 	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2));
