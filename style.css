@@ -28,21 +28,21 @@ html, body {
 	background-color: white;
 	background-image: linear-gradient(rgba(181,31,46,.33), rgba(181,31,46,.67) 75%);
 	background-size: cover;
-	height: 100%;
+	height: 120%;
 }
 
 #technical {
 	background-color: white;
 	background-image: linear-gradient(rgba(7,89,140,.33), rgba(7,89,140,.67) 75%);
 	background-size: cover;
-	height: 100%;
+	height: 120%;
 }
 
 #workplace {
 	background-color: white;
 	background-image: linear-gradient(rgba(58,58,60,.33), rgba(58,58,60,.67) 75%);
 	background-size: cover;
-	height: 100%;
+	height: 120%;
 }
 
 .title {
@@ -204,10 +204,10 @@ html, body {
 	margin: 0 .59vw;
 	width: 1.76vw;
 	height: 1.76vw;
-	outline: .39vh solid white;
-	/*-webkit-border-radius: .88vw;
-	-moz-border-radius: .88vw;*/
-	border-radius: .88vw;
+	border: .39vh solid white;
+	-webkit-border-radius: .88vw;
+	-moz-border-radius: .88vw;
+	border-radius: 100%;
 	background-color: lightgrey;
 	background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2));
  }
